@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi primera página web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+    main {
+      padding: 2em;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      gap: 1em;
+      justify-content: center;
+      background-color: #444;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5em;
+      display: block;
+    }
+    nav ul li a:hover {
+      background-color: #666;
+    }
+    section {
+      margin-top: 2em;
+    }
+    img {
+      width: 50px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a mi primera página web</h1>
+  </header>
+
+  <main>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+      </ul>
+    </nav>
+
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Bienvenido a mi sitio web. Aquí aprenderás los fundamentos del desarrollo web.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <img src="images/telephone-white.png" alt="Teléfono">
+      <img src="images/envelope-white.png" alt="Correo">
+    </section>
+
+    <section id="ubicacion">
+      <h2>Ubicación</h2>
+      <img src="images/location-white.png" alt="Ubicación">
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Hector Cabezas Garrobo</p>
+  </footer>
+</body>
+</html>
